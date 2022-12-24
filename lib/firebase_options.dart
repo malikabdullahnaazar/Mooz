@@ -49,7 +49,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '698890066579',
     projectId: 'mooz-ea801',
     authDomain: 'mooz-ea801.firebaseapp.com',
-    databaseURL: 'https://mooz-ea801-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://mooz-ea801-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'mooz-ea801.appspot.com',
     measurementId: 'G-J5T9J3QXKB',
   );
@@ -59,7 +60,8 @@ class DefaultFirebaseOptions {
     appId: '1:698890066579:android:aa42276b6db33508580b66',
     messagingSenderId: '698890066579',
     projectId: 'mooz-ea801',
-    databaseURL: 'https://mooz-ea801-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://mooz-ea801-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'mooz-ea801.appspot.com',
   );
 
@@ -68,10 +70,13 @@ class DefaultFirebaseOptions {
     appId: '1:698890066579:ios:bb445ad14770366e580b66',
     messagingSenderId: '698890066579',
     projectId: 'mooz-ea801',
-    databaseURL: 'https://mooz-ea801-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://mooz-ea801-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'mooz-ea801.appspot.com',
-    androidClientId: '698890066579-805oio20apdq7402f74sdpt4iu77qor5.apps.googleusercontent.com',
-    iosClientId: '698890066579-u52sb43h7mkqn55hi4314j14omlc85nk.apps.googleusercontent.com',
+    androidClientId:
+        '698890066579-805oio20apdq7402f74sdpt4iu77qor5.apps.googleusercontent.com',
+    iosClientId:
+        '698890066579-u52sb43h7mkqn55hi4314j14omlc85nk.apps.googleusercontent.com',
     iosBundleId: 'com.example.mooz',
   );
 
@@ -80,10 +85,13 @@ class DefaultFirebaseOptions {
     appId: '1:698890066579:ios:bb445ad14770366e580b66',
     messagingSenderId: '698890066579',
     projectId: 'mooz-ea801',
-    databaseURL: 'https://mooz-ea801-default-rtdb.asia-southeast1.firebasedatabase.app',
+    databaseURL:
+        'https://mooz-ea801-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'mooz-ea801.appspot.com',
-    androidClientId: '698890066579-805oio20apdq7402f74sdpt4iu77qor5.apps.googleusercontent.com',
-    iosClientId: '698890066579-u52sb43h7mkqn55hi4314j14omlc85nk.apps.googleusercontent.com',
+    androidClientId:
+        '698890066579-805oio20apdq7402f74sdpt4iu77qor5.apps.googleusercontent.com',
+    iosClientId:
+        '698890066579-u52sb43h7mkqn55hi4314j14omlc85nk.apps.googleusercontent.com',
     iosBundleId: 'com.example.mooz',
   );
 }
