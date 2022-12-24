@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "698890066579",
+    "firebase_url": "https://mooz-ea801-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mooz-ea801",
+    "storage_bucket": "mooz-ea801.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698890066579:android:aa42276b6db33508580b66",
+        "android_client_info": {
+          "package_name": "com.example.mooz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698890066579-805oio20apdq7402f74sdpt4iu77qor5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mooz",
+            "certificate_hash": "e00244484f10fb786dbe6bd009b71dbbe02583dc"
+          }
+        },
+        {
+          "client_id": "698890066579-ra50bd2s94fvphiqldo0p444gaabcos7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfvIaTfUIXRCoGC_PEM2ZmXSn92HMUijI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698890066579-ra50bd2s94fvphiqldo0p444gaabcos7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

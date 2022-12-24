@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>698890066579-u52sb43h7mkqn55hi4314j14omlc85nk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.698890066579-u52sb43h7mkqn55hi4314j14omlc85nk</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>698890066579-805oio20apdq7402f74sdpt4iu77qor5.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCVC1tsGtyXTpBjTAHdgymvK4GHPTQTUtg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>698890066579</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.mooz</string>
+	<key>PROJECT_ID</key>
+	<string>mooz-ea801</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mooz-ea801.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:698890066579:ios:bb445ad14770366e580b66</string>
+	<key>DATABASE_URL</key>
+	<string>https://mooz-ea801-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
