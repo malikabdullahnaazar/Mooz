@@ -22,7 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            Image.asset('assets/onbording.jpg'),
+            Image.asset('assets/onboarding.jpg'),
           ],
         ),
       ),
