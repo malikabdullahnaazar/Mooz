@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mooz/widgets/custom_buttom.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -13,7 +14,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return SafeArea(
       child: Scaffold(
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             const Text(
               "Start or join a meeting",
@@ -23,6 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
             ),
             Image.asset('assets/onboarding.jpg'),
+            CustomButton(text: "LogIn", onpressed: () {}),
           ],
         ),
       ),
