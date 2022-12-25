@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "516632820170",
+    "project_id": "mooz-ec9f3",
+    "storage_bucket": "mooz-ec9f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516632820170:android:c41f53b5ff5e880ec13733",
+        "android_client_info": {
+          "package_name": "com.example.mooz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516632820170-bf4s9bceesnbi73p5mqmahto4f51kod2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mooz",
+            "certificate_hash": "e00244484f10fb786dbe6bd009b71dbbe02583dc"
+          }
+        },
+        {
+          "client_id": "516632820170-12edct74s8ovelk0vjve3ddp0if7gfrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCHOMXuDdb9oN8kVdEQBMlg45OCJwdiGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516632820170-12edct74s8ovelk0vjve3ddp0if7gfrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mooz/widgets/custom_buttom.dart';
+import 'package:mooz/resources/auth_methods.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -8,6 +10,7 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+  final AuthMethods _authmethods = AuthMethods();
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -23,6 +26,15 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
             ),
             Image.asset('assets/onboarding.jpg'),
+            CustomButton(
+              text: "SignIn With Google",
+              onPressed: () async {
+                bool res = await _authmethods.signInWithGoogle(context);
+                if (res) {
+                  Navigator.pushNamed(context, '/home');
+                }
+              },
+            )
           ],
         ),
       ),
