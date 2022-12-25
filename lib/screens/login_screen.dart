@@ -16,7 +16,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return SafeArea(
       child: Scaffold(
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             const Text(
               "Start or join a meeting",
@@ -27,7 +27,7 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
             Image.asset('assets/onboarding.jpg'),
             CustomButton(
-              text: "SignIn With Google",
+              text: "Google SigIn",
               onPressed: () async {
                 bool res = await _authmethods.signInWithGoogle(context);
                 if (res) {
