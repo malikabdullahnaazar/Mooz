@@ -1,5 +1,6 @@
 @critical 
 start with zoom application
 i am hakim nabi 
+keytool -list -v -keystore "\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
 Todo:
   ☐ Item
