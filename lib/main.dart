@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:mooz/screens/home_screen.dart';
 import 'package:mooz/screens/login_screen.dart';
 import 'package:mooz/utils/colors.dart';
-import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Mooz',
+      title: 'mooz',
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: backgroundColor,
       ),

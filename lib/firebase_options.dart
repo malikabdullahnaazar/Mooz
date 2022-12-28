@@ -23,15 +23,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -64,5 +58,27 @@ class DefaultFirebaseOptions {
     messagingSenderId: '516632820170',
     projectId: 'mooz-ec9f3',
     storageBucket: 'mooz-ec9f3.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyDYqnZbd63XV9xAn-LCYb9pE3xcLvaQCY8',
+    appId: '1:516632820170:ios:b0bbf1a64c68561bc13733',
+    messagingSenderId: '516632820170',
+    projectId: 'mooz-ec9f3',
+    storageBucket: 'mooz-ec9f3.appspot.com',
+    androidClientId: '516632820170-bf4s9bceesnbi73p5mqmahto4f51kod2.apps.googleusercontent.com',
+    iosClientId: '516632820170-vlgnpanemv79lsrm5080pm833tefa6p1.apps.googleusercontent.com',
+    iosBundleId: 'com.example.mooz',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyDYqnZbd63XV9xAn-LCYb9pE3xcLvaQCY8',
+    appId: '1:516632820170:ios:b0bbf1a64c68561bc13733',
+    messagingSenderId: '516632820170',
+    projectId: 'mooz-ec9f3',
+    storageBucket: 'mooz-ec9f3.appspot.com',
+    androidClientId: '516632820170-bf4s9bceesnbi73p5mqmahto4f51kod2.apps.googleusercontent.com',
+    iosClientId: '516632820170-vlgnpanemv79lsrm5080pm833tefa6p1.apps.googleusercontent.com',
+    iosBundleId: 'com.example.mooz',
   );
 }
