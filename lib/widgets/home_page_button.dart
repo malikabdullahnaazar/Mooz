@@ -2,19 +2,19 @@ import 'package:flutter/material.dart';
 import 'package:mooz/utils/colors.dart';
 
 class HomeMeetingButton extends StatelessWidget {
-  final VoidCallback onpressed;
+  final VoidCallback onPressed;
   final IconData icon;
   final String text;
   const HomeMeetingButton(
       {super.key,
-      required this.onpressed,
+      required this.onPressed,
       required this.icon,
       required this.text});
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: onpressed,
+      onTap: onPressed,
       child: Column(
         children: [
           Container(
