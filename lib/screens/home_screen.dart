@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:mooz/resources/auth_methods.dart';
+import 'package:mooz/screens/contact_screen.dart';
 import 'package:mooz/screens/history_meeting_screen.dart';
 import 'package:mooz/screens/meeting_screen.dart';
+import 'package:mooz/screens/profile_page.dart';
 import 'package:mooz/utils/colors.dart';
+import 'package:mooz/utils/google_font_style.dart';
 import 'package:mooz/widgets/custom_buttom.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -23,8 +26,8 @@ class _HomeScreenState extends State<HomeScreen> {
   List<Widget> pages = [
     MeetingScreen(),
     const HistoryMeetingScreen(),
-    const Text('Contacts'),
-    CustomButton(text: 'Log Out', onPressed: () => AuthMethods().signOut()),
+    const ContactScreen(),
+    ProfileScreen(),
   ];
 
   @override
@@ -33,7 +36,10 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: backgroundColor,
         elevation: 0,
-        title: const Text('Meet & Chat'),
+        title: Text(
+          'Meet & Chat',
+          style: mystyle(19),
+        ),
         centerTitle: true,
       ),
       body: pages[_page],
@@ -44,7 +50,6 @@ class _HomeScreenState extends State<HomeScreen> {
         onTap: onPageChanged,
         currentIndex: _page,
         type: BottomNavigationBarType.fixed,
-        unselectedFontSize: 14,
         items: const [
           BottomNavigationBarItem(
             icon: Icon(
