@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:mooz/resources/auth_methods.dart';
 import 'package:mooz/screens/contact_screen.dart';
 import 'package:mooz/screens/history_meeting_screen.dart';
@@ -10,12 +11,18 @@ import 'package:mooz/widgets/custom_buttom.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
+=======
+
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+>>>>>>> f842ca996478efc339702e91a74cea18d257a4b6
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+<<<<<<< HEAD
   int _page = 0;
   onPageChanged(int page) {
     setState(() {
@@ -77,6 +84,12 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
+=======
+  @override
+  Widget build(BuildContext context) {
+    return const Center(
+      child: Text("Home Screen"),
+>>>>>>> f842ca996478efc339702e91a74cea18d257a4b6
     );
   }
 }

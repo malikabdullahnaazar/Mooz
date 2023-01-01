@@ -23,9 +23,21 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
+<<<<<<< HEAD
         return ios;
       case TargetPlatform.macOS:
         return macos;
+=======
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
+      case TargetPlatform.macOS:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
+>>>>>>> f842ca996478efc339702e91a74cea18d257a4b6
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -44,6 +56,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
+<<<<<<< HEAD
     apiKey: 'AIzaSyAep8hS-1lCC3USxXeVfxkh1XUpvev8vZU',
     appId: '1:516632820170:web:9c3049b6c87c689ec13733',
     messagingSenderId: '516632820170',
@@ -80,5 +93,21 @@ class DefaultFirebaseOptions {
     androidClientId: '516632820170-bf4s9bceesnbi73p5mqmahto4f51kod2.apps.googleusercontent.com',
     iosClientId: '516632820170-vlgnpanemv79lsrm5080pm833tefa6p1.apps.googleusercontent.com',
     iosBundleId: 'com.example.mooz',
+=======
+    apiKey: 'AIzaSyCMIpK0HIZCiWISavNCy2zvG6gO5zpgTPM',
+    appId: '1:153415079242:web:a69eef16f029a76ca79db3',
+    messagingSenderId: '153415079242',
+    projectId: 'mooz-eaa80',
+    authDomain: 'mooz-eaa80.firebaseapp.com',
+    storageBucket: 'mooz-eaa80.appspot.com',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyAJSCccgzz07SLVRwUoXOanxqDIzTAn884',
+    appId: '1:153415079242:android:5f32fc4a6bdbe368a79db3',
+    messagingSenderId: '153415079242',
+    projectId: 'mooz-eaa80',
+    storageBucket: 'mooz-eaa80.appspot.com',
+>>>>>>> f842ca996478efc339702e91a74cea18d257a4b6
   );
 }
