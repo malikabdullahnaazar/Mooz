@@ -27,11 +27,16 @@ class CustomButton extends StatelessWidget {
             side: const BorderSide(color: buttonColor),
           ),
         ),
-        child: Text(
-          text,
-          style: const TextStyle(
-            fontSize: 17,
-          ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Text(
+              text,
+              style: const TextStyle(
+                fontSize: 17,
+              ),
+            ),
+          ],
         ),
       ),
     );

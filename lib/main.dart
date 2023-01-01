@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:mooz/resources/auth_methods.dart';
 import 'package:mooz/screens/home_screen.dart';
+import 'package:mooz/screens/intro_auth_screen.dart';
 import 'package:mooz/screens/login_screen.dart';
 import 'package:mooz/screens/vedio_call_screen.dart';
 import 'package:mooz/utils/colors.dart';
@@ -42,7 +43,7 @@ class MyApp extends StatelessWidget {
             return const HomeScreen();
           }
 
-          return const LoginScreen();
+          return const IntroAuthScreen();
         },
       ),
     );
